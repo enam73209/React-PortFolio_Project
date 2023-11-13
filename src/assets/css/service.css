@@ -6,7 +6,9 @@
     letter-spacing: 0em;
     text-align: left;
     color: rgba(32, 177, 90, 1);
-    background: rgba(248, 249, 252, 1);
+    padding-left: 50px;
+    padding-top: 20px;
+
 
 }
 .All_Service_Des{
@@ -17,7 +19,8 @@
     letter-spacing: 0em;
     text-align: left;
     color: rgba(0, 0, 0, 1);
-    background: rgba(248, 249, 252, 1);
+    padding-left: 50px;
+
 
 
 }
@@ -58,5 +61,53 @@
     border-radius: 8px;
     margin-bottom: 10px;
     box-shadow: 1px 4px 30px  rgba(0, 0, 0, 0.2);
+
+}
+.Page_Heading{
+    width: auto;
+    height: 370px;
+    background: rgba(248, 249, 252, 1);
+    padding: 200px 1px 1px 50px;
+
+}
+.Page_Heading_Title{
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(16, 26, 41, 1);
+}
+.Page_Heading_Nav_Link{
+    width: auto;
+    height: 25px;
+    top: 265px;
+    left: 100px;
+    gap: 15px;
+    display: inline-block;
+}
+.breadcrumb-item_home{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    /*text-align: left;*/
+    Color: rgba(16, 26, 41, 1);
+}
+.breadcrumb-item_child {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 8px;
+    line-height: 25px;
+    letter-spacing: 0em;
+    /*text-align: left;*/
+    color: rgba(32, 177, 90, 1);
+
+}
+.breadcrumb_sign {
+  padding-top: 8px;
 
 }
