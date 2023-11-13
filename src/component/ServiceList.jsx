@@ -17,7 +17,7 @@ const ServiceList = () => {
                     <div className="breadcrumb-item_child">Service</div>
                 </div>
             </div>
-            <div className="container-fluid  ">
+            <div className="container-fluid">
                 <p className="All_Service_Title  mb-4">Our All Services</p>
                 <p className="All_Service_Des  mb-4">We Provide Best Web design services</p>
               <div className="row container-fluid justify-content-center">
@@ -52,3 +52,5 @@ const ServiceList = () => {
 };
 
 export default ServiceList;
+
+
