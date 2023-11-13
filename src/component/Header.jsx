@@ -17,6 +17,7 @@ const Header = () => {
                 <div className="col-md-9">
                     <ul className="NavItems list-unstyled mt-4 d-flex justify-content-end">
                         <NavLink to="/"><li className="me-3">Home</li></NavLink>
+                        <NavLink to="/team"><li className="me-3">Team</li></NavLink>
                         <NavLink to="/service"><li className="me-3">Service</li></NavLink>
                         <NavLink to="/project"><li className="me-3">Projects</li></NavLink>
                         <NavLink to="/testimonial"><li className="me-3">Testimonials</li></NavLink>

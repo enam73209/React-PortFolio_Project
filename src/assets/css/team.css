@@ -1,0 +1,43 @@
+
+
+.Team_Card {
+    text-align: center;
+    width: 392px;
+    height: 490px;
+    border-radius: 20px;
+    border: 1px solid rgba(227, 227, 227, 1);
+    margin: 0 auto;
+    position: relative;
+}
+
+.card-title {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: rgba(16, 26, 41, 1);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.SocialLink {
+    width: 145px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgba(227, 227, 227, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+}
+.SocialLink img {
+    margin: 10px 5px; /* Adjust the margin between the images */
+    width: 25px; /* Set a common width for all images */
+    height: 25px; /* Set a common height for all images */
+}
