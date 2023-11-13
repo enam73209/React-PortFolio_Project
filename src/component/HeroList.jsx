@@ -18,7 +18,7 @@ const HeroList = () => {
         },
         {
             id:2,
-            img:"/src/assets/img/logos_google.svg"
+            img:"/src/assets/img/Trello-logo-blue 1.svg"
         },
         {
             id:3,

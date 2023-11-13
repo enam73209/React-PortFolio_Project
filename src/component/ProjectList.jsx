@@ -2,33 +2,12 @@ import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
 import arrow from "../assets/img/service/arrow.svg";
 import {Card, Col, Row} from "react-bootstrap";
-import project1 from '/src/assets/img/projects/project1.svg'
-import project2 from '/src/assets/img/projects/project2.svg'
-import project3 from '/src/assets/img/projects/project3.svg'
-import project4 from '/src/assets/img/projects/project4.svg'
-import project5 from '/src/assets/img/projects/project5.svg'
-import project6 from '/src/assets/img/projects/project6.svg'
+
 
 const ProjectList = () => {
     const[projectImg,setProjectImg]=useState([
-        {
-            img:"/src/assets/img/projects/project1.svg"
-        },
-        {
-            img:"/src/assets/img/projects/project2.svg"
-        },
-        {
-            img:"/src/assets/img/projects/project3.svg"
-        },
-        {
-            img:"/src/assets/img/projects/project4.svg"
-        },
-        {
-            img:"/src/assets/img/projects/project5.svg"
-        },
-        {
-            img:"/src/assets/img/projects/project6.svg"
-        }
+        {img:"/src/assets/img/projects/project1.svg"},{img:"/src/assets/img/projects/project2.svg"}, {img:"/src/assets/img/projects/project3.svg"},
+        {img:"/src/assets/img/projects/project4.svg"},{img:"/src/assets/img/projects/project5.svg"},{img:"/src/assets/img/projects/project6.svg"}
     ]);
     const ProjectList = projectImg.map((project,index)=>{
         return  <div key={index.toString()} className="col-md-6 shadow Projects_Card">
@@ -48,7 +27,6 @@ const ProjectList = () => {
                     <div className="breadcrumb-item_child">Projects</div>
                 </div>
             </div>
-
             <div className="container-fluid">
                 <p className="All_Service_Title mb-4">Our All Projects</p>
                 <p className="All_Service_Des mb-4">Better Agency/SEO Solution At Your Fingertips</p>

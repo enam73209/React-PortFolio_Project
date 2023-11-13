@@ -1,11 +1,12 @@
 import React from 'react';
 import Layout from "../Layout/Layout.jsx";
+import Testimonial from "../component/Testimonial.jsx";
 
 const TestimonialPage = () => {
     return (
         <div>
             <Layout>
-                <h1>Testimonial</h1>
+                <Testimonial/>
             </Layout>
         </div>
     );

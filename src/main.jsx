@@ -8,6 +8,7 @@ import '../src/assets/css/style.css'
 import  '../src/assets/css/service.css'
 import '../src/assets/css/team.css'
 import '../src/assets/css/projects.css'
+import '../src/assets/css/testimonial.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
