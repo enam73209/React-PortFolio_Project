@@ -5,6 +5,7 @@ import '../src/assets/css/fontawesome.css'
 import '../src/assets/css/bootstrap.css'
 import '../src/assets/css/animate.min.css'
 import '../src/assets/css/style.css'
+import  '../src/assets/css/service.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

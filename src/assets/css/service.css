@@ -1,0 +1,62 @@
+.All_Service_Title {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(32, 177, 90, 1);
+    background: rgba(248, 249, 252, 1);
+
+}
+.All_Service_Des{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    background: rgba(248, 249, 252, 1);
+
+
+}
+.Service_Card{
+    width: 604px;
+    height: 694px;
+    margin: 5px 10px 10px 40px;
+
+}
+.Service_Card_Des{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(157, 157, 157, 1);
+
+}
+.Service_Card_Title{
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+
+}
+.Service_Card_img {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Service_Card_img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 1px 4px 30px  rgba(0, 0, 0, 0.2);
+
+}
