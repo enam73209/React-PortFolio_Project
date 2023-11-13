@@ -1,0 +1,309 @@
+.navbar {
+    margin-bottom: 30px;
+    padding: 5px 100px;
+    justify-content: space-between;
+}
+
+.NabBrand{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.NavItems li{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 1000;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.footer{
+    width: Auto;
+    height: 441px;
+    background: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+    color: rgba(255, 255, 255, 1) !important;
+}
+.footer h3, h5{
+    color: rgba(255, 255, 255, 1) ;
+    font-family: Poppins;
+}
+.Hero_Title {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+
+}
+.Hero_Des {
+    font-family: Avenir;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+
+
+}
+.Hero{
+    background: linear-gradient(180deg, #D7F5DC 0%, #D7F5DC 100%);
+    width: auto;
+    height: 837px;
+
+}
+.Hero_partner {
+    background: rgba(248, 255, 249, 1);
+    width: auto;
+    height: 120px;
+    /*position: relative; */
+    top: 683px;
+    padding: 50px 143px 50px 115px; /* Adjusted padding values */
+}
+.Worklist{
+    width: auto;
+    height: 721px;
+    top: 836px;
+    padding: 67px 105px 64px 105px;
+    background: rgba(255, 255, 255, 1);
+
+}
+.Worklist_Title{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:rgba(32, 177, 90, 1);
+
+}
+.Worklist_Des{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+
+}
+.Work_Card{
+    width: auto;
+    height: 415px;
+    gap: 45px;
+
+}
+.Work_Card_Item{
+    width:  auto;
+    height: 415px;
+    padding: 50px 5px 50px 160px;
+    border-radius: 30px;
+    gap: 43px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 100px;
+}
+.Work_Card_Icon{
+    width: 93px;
+    height: 93px;
+    padding: 30px;
+    border-radius: 20px;
+    gap: 10px;
+    background: rgba(215, 245, 220, 1);
+
+}
+.Work_Card_Content{
+    width: 299px;
+    height:101px;
+    gap: 15px;
+
+}
+.Work_Card_Content_Title{
+    width: 240px;
+    height: 36px;
+}
+.Work_Card_Content_Title p{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+
+}
+.Work_Card_Content_Des{
+    width: 299px;
+    height: 50px;
+
+
+}
+.Work_Card_Content_Des p{
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+
+}
+.StatList{
+    width: auto;
+    height: 421px;
+    top: 1556px;
+
+}
+.StatList_Card{
+    width: 288px;
+    height: 290px;
+    top: 66px;
+    left: 101px;
+    border-radius: 10px;
+
+}
+.StatList_Card_Icon{
+    width: 100px;
+    height: 100px;
+    top: 47px;
+    left: 95px;
+    padding: 30px 10px 10px 10px;
+    margin: auto;
+    border-radius: 10px;
+    background: rgba(215, 245, 220, 1);
+
+
+}
+.StatList_Card_Title{
+    width: 65px;
+    height: 24px;
+    margin-left: 70px;
+}
+.StatList_Card_Title p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+.StatList_Card_Count{
+    width: 113px;
+    height: 45px;
+    top: 170px;
+    left: 88px;
+    margin-left: 57px;
+
+}
+.StatList_Card_Count p{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+.FeaturedProject{
+    background: rgba(240, 253, 244, 1);
+
+}
+.FeaturedProject_Title{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(32, 177, 90, 1);
+
+}
+.FeaturedProject_Des{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+   color: rgba(0, 0, 0, 1);
+}
+.subscription_form {
+    position: relative;
+    width: 300px;
+    margin-left: 740px;
+}
+
+.subscription_input {
+    width: 150%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+
+}
+
+
+.subscription_button {
+    position: absolute;
+    right: -140px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 8px 24px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(245, 95, 29, 1);
+    height: 40px;
+    width: 130px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.subscription_title{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: center;
+    color: rgba(32, 177, 90, 1);
+
+}
+.subscription_Des{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+
+}
+.subscription_Des2{
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(139, 139, 139, 1);
+
+
+}
+
+
+
+
+
+
+
