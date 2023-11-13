@@ -1,11 +1,12 @@
 import React from 'react';
 import Layout from "../Layout/Layout.jsx";
+import ProjectList from "../component/ProjectList.jsx";
 
 const ProjectPage = () => {
     return (
         <div>
             <Layout>
-                <h1>Project Page</h1>
+                <ProjectList/>
             </Layout>
         </div>
     );

@@ -7,6 +7,7 @@ import '../src/assets/css/animate.min.css'
 import '../src/assets/css/style.css'
 import  '../src/assets/css/service.css'
 import '../src/assets/css/team.css'
+import '../src/assets/css/projects.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

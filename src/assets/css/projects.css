@@ -1,0 +1,33 @@
+.Projects_Card{
+    width: 604px;
+    height: 611px;
+    top: 252px;
+    left: 100px;
+    padding: 40px 30px 30px 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.projects_Card_Img{
+    width: 544px;
+    height: 472px;
+    top: 40px;
+    left: 30px;
+    border-radius: 20px;
+}
+.Project_Card_Title{
+
+    width: 511px;
+    height: 39px;
+    top: 542px;
+    left: 30px;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    Color: rgba(0, 0, 0, 1);
+
+
+}
