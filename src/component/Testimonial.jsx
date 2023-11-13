@@ -26,7 +26,7 @@ const Testimonial = () => {
         },
     ]);
     const TestimonialList = testimonialImg.map((testimonial,index)=>{
-        return<div key={index.toString()} className="col-md-4 shadow Testimonial_Card">
+        return<div key={index.toString()} className="col-md-4 shadow Testimonial_Card animate__animated animate__backInUp">
                     <div className="testimonial_Card_Img">
                         <img src={testimonial.img} alt="Project 1" />
                     </div>

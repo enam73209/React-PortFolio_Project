@@ -23,7 +23,7 @@ const ServiceList = () => {
               <div className="row container-fluid justify-content-center">
                   {
                       Services.map((service,index)=>{
-                          return  <div key={index.toString()} className="col-md-6 shadow Service_Card">
+                          return  <div key={index.toString()} className="col-md-6 shadow Service_Card animate__animated animate__bounceIn">
                               <Card.Text className="Service_Card_Title">{service.title}</Card.Text>
                               <Card.Text className="Service_Card_Des">{service.Des}</Card.Text>
                               <Row>

@@ -10,7 +10,7 @@ const ProjectList = () => {
         {img:"/src/assets/img/projects/project4.svg"},{img:"/src/assets/img/projects/project5.svg"},{img:"/src/assets/img/projects/project6.svg"}
     ]);
     const ProjectList = projectImg.map((project,index)=>{
-        return  <div key={index.toString()} className="col-md-6 shadow Projects_Card">
+        return  <div key={index.toString()} className="col-md-6 shadow Projects_Card animate__animated animate__pulse">
                     <div className="projects_Card_Img">
                         <img src={project.img} alt="Project 1" />
                     </div>

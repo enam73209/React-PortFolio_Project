@@ -9,6 +9,7 @@ import  '../src/assets/css/service.css'
 import '../src/assets/css/team.css'
 import '../src/assets/css/projects.css'
 import '../src/assets/css/testimonial.css'
+import 'animate.css';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

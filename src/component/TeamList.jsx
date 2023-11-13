@@ -40,7 +40,7 @@ const TeamList = () => {
                 <Row>
                     {
                         teamData.map((team,index)=>(
-                            <Col md={4}  className="justify-content-center d-flex" key={index.toString()}>
+                            <Col md={4}  className="justify-content-center d-flex animate__animated animate__backInLeft" key={index.toString()}>
                                 <div className="Team_Card" >
                                     <img className="card-img-top" src={team.img} alt="Card image cap"/>
                                     <div className="SocialLink d-flex">
