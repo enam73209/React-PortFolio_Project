@@ -2,27 +2,27 @@ import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
 import arrow from "../assets/img/service/arrow.svg";
 import {Card} from "react-bootstrap";
-import testimonial1 from '../assets/img/testimonial/testimonial1.svg'
+import testimonial1 from '/public/testimonial1.svg'
 
 const Testimonial = () => {
     const[testimonialImg,setTestimonial]=useState([
         {
-            img:"/src/assets/img/testimonial/testimonial1.svg"
+            img:"/public/testimonial1.svg"
         },
         {
-            img:"/src/assets/img/testimonial/testimonial2.svg"
+            img:"/public/testimonial2.svg"
         },
         {
-            img:"/src/assets/img/testimonial/testimonial3.svg"
+            img:"/public/testimonial3.svg"
         },
         {
-            img:"/src/assets/img/testimonial/testimonial4.svg"
+            img:"/public/testimonial4.svg"
         },
         {
-            img:"/src/assets/img/testimonial/testimonial5.svg"
+            img:"/public/testimonial5.svg"
         },
         {
-            img:"/src/assets/img/testimonial/testimonial6.svg"
+            img:"/public/testimonial6.svg"
         },
     ]);
     const TestimonialList = testimonialImg.map((testimonial,index)=>{

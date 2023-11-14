@@ -2,25 +2,25 @@ import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
 import arrow from "../assets/img/service/arrow.svg";
 import {Col, Row} from "react-bootstrap";
-import facebook from '/src/assets/img/team/facebook.svg'
-import insta from '/src/assets/img/team/insta.svg'
-import twitter from '/src/assets/img/team/Twitter.svg'
-import line1 from '/src/assets/img/team/Line 1.svg'
-import line2 from '/src/assets/img/team/Line 2.svg'
+import facebook from '/public/team_facebook.svg'
+import insta from '/public/team_insta.svg'
+import twitter from '/public/team_Twitter.svg'
+import line1 from '/public/Line1.svg'
+import line2 from '/public/Line2.svg'
 
 const TeamList = () => {
     const[teamData,setTeamData]=useState([
         {
             name:"Alex Lov",
-            img:"/src/assets/img/team/Rectangle 2093.svg"
+            img:"/public/Rectangle.svg"
         },
         {
             name:"Danny Bailey",
-            img:"/src/assets/img/team/Danny Bailey.svg"
+            img:"/public/Danny.svg"
         },
         {
             name:"Devon Lane",
-            img:"/src/assets/img/team/Devon.svg"
+            img:"/public/Devon.svg"
         }
 
         ])

@@ -6,8 +6,8 @@ import {Card, Col, Row} from "react-bootstrap";
 
 const ProjectList = () => {
     const[projectImg,setProjectImg]=useState([
-        {img:"/src/assets/img/projects/project1.svg"},{img:"/src/assets/img/projects/project2.svg"}, {img:"/src/assets/img/projects/project3.svg"},
-        {img:"/src/assets/img/projects/project4.svg"},{img:"/src/assets/img/projects/project5.svg"},{img:"/src/assets/img/projects/project6.svg"}
+        {img:"/public/project1.svg"},{img:"/public/project2.svg"}, {img:"/public/project3.svg"},
+        {img:"/public/project4.svg"},{img:"/public/project5.svg"},{img:"/public/project6.svg"}
     ]);
     const ProjectList = projectImg.map((project,index)=>{
         return  <div key={index.toString()} className="col-md-6 shadow Projects_Card animate__animated animate__pulse">
