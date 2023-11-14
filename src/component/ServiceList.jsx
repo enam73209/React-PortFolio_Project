@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Row, Col, Card, Button} from "react-bootstrap";
-import ServiceJsonData from  '/src/services.json'
+import ServiceJsonData from '/public/services.json'
 import arrow from '/src/assets/img/service/arrow.svg'
 import {NavLink} from "react-router-dom";
 
