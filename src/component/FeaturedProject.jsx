@@ -1,11 +1,11 @@
 import React from 'react';
 import {Col, Image, Row} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-import Mask from '/src/assets/img/Mask.svg'
-import Mask1 from '/src/assets/img/Mask1.svg'
-import Mask2 from '/src/assets/img/Mask2.svg'
-import Mask3 from '/src/assets/img/Mask3.svg'
-import Mask4 from '/src/assets/img/Mask4.svg'
+import Mask from '/public/Mask.svg'
+import Mask1 from '/public/Mask1.svg'
+import Mask2 from '/public/Mask2.svg'
+import Mask3 from '/public/Mask3.svg'
+import Mask4 from '/public/Mask4.svg'
 
 const FeaturedProject = () => {
     return (

@@ -6,31 +6,31 @@ const HeroList = () => {
     const[BannerData,SetBannerData]=useState({
         title:"Increase Your Customers Loyalty and Satisfaction",
         Des:"We help businesses like yours earn more customers, stand out from competitors, make more money",
-        Hero1:"/src/assets/img/Rectangle 1241.svg",
-        Hero2:"/src/assets/img/Rectangle 1242.svg",
-        Hero3:'/src/assets/img/Rectangle 1243.svg',
-        Hero4:'/src/assets/img/Rectangle 1244.svg'
+        Hero1:"/public/Rectangle1241.svg",
+        Hero2:"/public/Rectangle1242.svg",
+        Hero3:'/public/Rectangle1243.svg',
+        Hero4:'/public/Rectangle1244.svg'
     });
     const[partner,setPartner]=useState([
         {
             id:1,
-            img:"/src/assets/img/logos_google.svg"
+            img:"/public/logos_google.svg"
         },
         {
             id:2,
-            img:"/src/assets/img/Trello-logo-blue 1.svg"
+            img:"/public/Trello-logo-blue1.svg"
         },
         {
             id:3,
-            img:"/src/assets/img/Slack.svg"
+            img:"/public/Slack.svg"
         },
         {
             id:4,
-            img:"/src/assets/img/logos_monday.svg"
+            img:"/public/logos_monday.svg"
         },
         {
             id:5,
-            img:"/src/assets/img/Notion.svg"
+            img:"/public/Notion.svg"
         },
     ]);
     const PartnerList = partner.map((item,index)=>{

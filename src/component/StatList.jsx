@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import Activity from "../assets/img/Activity.svg";
 import {Button} from "react-bootstrap";
 
 const StatList = () => {
@@ -9,25 +8,25 @@ const StatList = () => {
                 "id": 1,
                 "count": 240452,
                 "title": "Followers",
-                "img": "/src/assets/img/Follower.svg"
+                "img": "/public/Follower.svg"
             },
             {
                 "id": 2,
                 "count": 6300,
                 "title": "Solved Problems",
-                "img": "/src/assets/img/Vector.svg"
+                "img": "/public/Vector.svg"
             },
             {
                 "id": 3,
                 "count": 25000,
                 "title": "Happy Customers",
-                "img": "/src/assets/img/Happy.svg"
+                "img": "/public/Happy.svg"
             },
             {
                 "id": 4,
                 "count": 360452,
                 "title": "Projects",
-                "img": "/src/assets/img/Stat1.svg"
+                "img": "/public/Stat1.svg"
             }
         ]
 

@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
-import Activity from '/src/assets/img/Activity.svg';
-import Heart from '/src/assets/img/Heart.svg'
-import Work from '/src/assets/img/Work.svg'
+
 import {Button} from "react-bootstrap";
 
 const Worklist = () => {
@@ -14,19 +12,19 @@ const Worklist = () => {
             id:1,
             title:"Grow Your Business",
             des:"We help identify the best ways to improve your business",
-            img:"/src/assets/img/Activity.svg"
+            img:"/public/Activity.svg"
         },
         {
             id:2,
             title:"Improve Brand Loyalty",
             des:"We help identify the best ways to improve your business",
-            img:"/src/assets/img/Heart.svg"
+            img:"/public/Heart.svg"
         },
         {
             id:1,
             title:"Improve Business Model",
             des:"We help identify the best ways to improve your business",
-            img:"/src/assets/img/Work.svg"
+            img:"/public/Work.svg"
         }
     ]);
     const WorkList = works.map((work,index)=>{

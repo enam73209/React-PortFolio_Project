@@ -1,9 +1,9 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import facebook from '/src/assets/img/Group 32.svg'
-import twitter from '/src/assets/img/Group 33.svg'
-import linkdin from '/src/assets/img/Group 34.svg'
-import insta from '/src/assets/img/Frame 20095.svg'
+import facebook from '/public/Group32.svg'
+import twitter from '/public/Group33.svg'
+import linkdin from '/public/Group34.svg'
+import insta from '/public/Frame20095.svg'
 
 
 const Footer = () => {
