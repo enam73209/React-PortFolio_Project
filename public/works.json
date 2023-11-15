@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "title":"Grow Your Business",
+      "des":"We help identify the best ways to improve your business",
+      "img":"/Activity.svg"
+    },
+    {
+      "title":"Improve Brand Loyalty",
+      "des":"We help identify the best ways to improve your business",
+      "img":"/Heart.svg"
+    },
+    {
+      "title":"Improve Business Model",
+      "des":"We help identify the best ways to improve your business",
+      "img":"/Work.svg"
+    }
+  ]
+}

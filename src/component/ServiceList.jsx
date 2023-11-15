@@ -1,11 +1,19 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Row, Col, Card, Button} from "react-bootstrap";
-import ServiceJsonData from '/public/services.json'
-import arrow from '/src/assets/img/service/arrow.svg'
+import arrow from '/arrow.svg'
 import {NavLink} from "react-router-dom";
+import {ServiceDataRequest} from "../APIRequest/APIRequest.js";
 
 const ServiceList = () => {
-    const[Services,setServices]=useState(ServiceJsonData);
+    const[Services,setServices]=useState([]);
+
+    useEffect(() => {
+        (async ()=>{
+            let ServiceData= await ServiceDataRequest();
+            setServices(ServiceData);
+
+        })()
+    }, []);
 
     return (
         <div className="">
@@ -27,18 +35,18 @@ const ServiceList = () => {
                               <Card.Text className="Service_Card_Title">{service.title}</Card.Text>
                               <Card.Text className="Service_Card_Des">{service.Des}</Card.Text>
                               <Row>
-                                  <Col md={6} className="Service_Card_img">
+                                  <Col md={6} xs={6} sm={6}  lg={6} className="Service_Card_img ">
                                       <img src={service.img1}/>
                                   </Col>
-                                  <Col md={6} className="Service_Card_img">
+                                  <Col md={6} xs={6} sm={6}  lg={6} className="Service_Card_img">
                                       <img src={service.img2} />
                                   </Col>
                               </Row>
                               <Row>
-                                  <Col md={6} className="Service_Card_img">
+                                  <Col md={6} xs={6} sm={6}  lg={6} className="Service_Card_img">
                                       <img src={service.img3}/>
                                   </Col>
-                                  <Col md={6} className="Service_Card_img">
+                                  <Col md={6} xs={6} sm={6}  lg={6} className="Service_Card_img">
                                       <img src={service.img4}/>
                                   </Col>
                               </Row>

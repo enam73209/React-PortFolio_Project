@@ -1,30 +1,19 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {NavLink} from "react-router-dom";
-import arrow from "../assets/img/service/arrow.svg";
+import arrow from "/arrow.svg";
 import {Card} from "react-bootstrap";
-import testimonial1 from '/public/testimonial1.svg'
+import {TestimonialDataRequest} from "../APIRequest/APIRequest.js";
 
 const Testimonial = () => {
-    const[testimonialImg,setTestimonial]=useState([
-        {
-            img:"/public/testimonial1.svg"
-        },
-        {
-            img:"/public/testimonial2.svg"
-        },
-        {
-            img:"/public/testimonial3.svg"
-        },
-        {
-            img:"/public/testimonial4.svg"
-        },
-        {
-            img:"/public/testimonial5.svg"
-        },
-        {
-            img:"/public/testimonial6.svg"
-        },
-    ]);
+    const[testimonialImg,setTestimonial]=useState([]);
+
+    useEffect(() => {
+        (async ()=>{
+            let TestimonialData = await TestimonialDataRequest();
+            console.log(TestimonialData);
+            setTestimonial(TestimonialData);
+        })()
+    }, []);
     const TestimonialList = testimonialImg.map((testimonial,index)=>{
         return<div key={index.toString()} className="col-md-4 shadow Testimonial_Card animate__animated animate__backInUp">
                     <div className="testimonial_Card_Img">

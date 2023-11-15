@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "count": 240452,
+      "title": "Followers",
+      "img": "/Follower.svg"
+    },
+    {
+      "count": 6300,
+      "title": "Solved Problems",
+      "img": "/Vector.svg"
+    },
+    {
+      "count": 25000,
+      "title": "Happy Customers",
+      "img": "/Happy.svg"
+    },
+    {
+      "count": 360452,
+      "title": "Projects",
+      "img": "/Stat1.svg"
+    }
+  ]
+}

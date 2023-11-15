@@ -1,38 +1,40 @@
-[
-  {
-    "id":1,
-    "title":"Build & Launch without problems",
-    "Des":"Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
-    "img1":"/public/Rectangle2095.svg",
-    "img2":"/public/Rectangle2096.svg",
-    "img3":"/public/Rectangle2097.svg",
-    "img4":"/public/Rectangle2098.svg"
-  },
-  {
-    "id":2,
-    "title":"Build & Launch without problems",
-    "Des":"Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
-    "img1":"/public/Rectangle2095(1).svg",
-    "img2":"/public/Rectangle2096(1).svg",
-    "img3":"/public/Rectangle2097(1).svg",
-    "img4":"/public/Rectangle2098(1).svg"
-  },
-  {
-    "id":1,
-    "title":"Build & Launch without problems",
-    "Des":"Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
-    "img1":"/public/Rectangle2095(2).svg",
-    "img2":"/public/Rectangle2096(2).svg",
-    "img3":"/public/Rectangle2097(2).svg",
-    "img4":"/public/Rectangle2098(2).svg"
-  },
-  {
-    "id":1,
-    "title":"Build & Launch without problems",
-    "Des":"Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
-    "img1":"/public/Rectangle2095(3).svg",
-    "img2":"/public/Rectangle2096(3).svg",
-    "img3":"/public/Rectangle2097(3).svg",
-    "img4":"/public/Rectangle2098(3).svg"
-  }
-]
+{
+  "data": [
+    {
+      "id":1,
+      "title":"Build & Launch without problems",
+      "Des":"Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+      "img1":"/Rectangle2095.svg",
+      "img2":"/Rectangle2096.svg",
+      "img3":"/Rectangle2097.svg",
+      "img4":"/Rectangle2098.svg"
+    },
+    {
+      "id":2,
+      "title":"Build & Launch without problems",
+      "Des":"Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+      "img1":"/Rectangle2095(1).svg",
+      "img2":"/Rectangle2096(1).svg",
+      "img3":"/Rectangle2097(1).svg",
+      "img4":"/Rectangle2098(1).svg"
+    },
+    {
+      "id":1,
+      "title":"Build & Launch without problems",
+      "Des":"Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+      "img1":"/Rectangle2095(2).svg",
+      "img2":"/Rectangle2096(2).svg",
+      "img3":"/Rectangle2097(2).svg",
+      "img4":"/Rectangle2098(2).svg"
+    },
+    {
+      "id":1,
+      "title":"Build & Launch without problems",
+      "Des":"Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+      "img1":"/Rectangle2095(3).svg",
+      "img2":"/Rectangle2096(3).svg",
+      "img3":"/Rectangle2097(3).svg",
+      "img4":"/Rectangle2098(3).svg"
+    }
+  ]
+}

@@ -5,27 +5,44 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {NavLink} from "react-router-dom";
 import { GoogleFonts } from 'google-fonts';
+import {Col} from "react-bootstrap";
+import Logo from '/DesignAGENCY.svg'
 
 
 const Header = () => {
     return (
         <div className="row">
-            <Navbar fixed={"top"}  collapseOnSelect expand="lg"  className="navbar bg-transparent">
-                <div className="col-md-3 mt-2 ">
-                    <h4 className="NabBrand">React-Bootstrap</h4>
-                </div>
-                <div className="col-md-9">
-                    <ul className="NavItems list-unstyled mt-4 d-flex justify-content-end">
-                        <NavLink to="/"><li className="me-3">Home</li></NavLink>
-                        <NavLink to="/team"><li className="me-3">Team</li></NavLink>
-                        <NavLink to="/service"><li className="me-3">Service</li></NavLink>
-                        <NavLink to="/project"><li className="me-3">Projects</li></NavLink>
-                        <NavLink to="/testimonial"><li className="me-3">Testimonials</li></NavLink>
-                        <li className="me-3"><button className=" me-3 btn btn-outline-success">Login</button></li>
-                        <li><button className="me-3 btn btn-success">Registration</button></li>
-                    </ul>
-                </div>
+            <Navbar className="MyNavbar" bg="" expand="lg" variant="dark" fixed="top"  style={{ zIndex: 1000 , minHeight: '100px' }}>
+
+                {/* Logo on the right side */}
+                <Navbar.Brand>
+                    <img
+                        src={Logo}
+                        className="NabBrand d-inline-block align-top"
+                        alt="Your Logo"
+                    />
+                </Navbar.Brand>
+
+                {/* Menu items on the right side */}
+                <Navbar.Toggle className="my-navbar-toggle" aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className=" NavMenuItems w-100 justify-content-end">
+                        <NavLink className="NavItems" to="/">Home</NavLink>
+                        <NavLink className="NavItems" to="/team">Team</NavLink>
+                        <NavLink className="NavItems" to="/project">Project</NavLink>
+                        <NavLink className="NavItems" to="/testimonial">Testimonial</NavLink>
+                        <NavLink className="NavItems" to="/service">Service</NavLink>
+
+                        <NavLink className="NavItems" to="#">
+                            <button className="me-3 btn btn-outline-success">Login</button>
+                        </NavLink>
+                        <NavLink to=""><button className="me-3 btn btn-success">Registration</button></NavLink>
+                    </Nav>
+                </Navbar.Collapse>
             </Navbar>
+
+
+
         </div>
 
     );

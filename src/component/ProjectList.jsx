@@ -1,21 +1,30 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {NavLink} from "react-router-dom";
-import arrow from "../assets/img/service/arrow.svg";
+import arrow from "/arrow.svg";
 import {Card, Col, Row} from "react-bootstrap";
+import {ProjectDataRequest} from "../APIRequest/APIRequest.js";
 
 
 const ProjectList = () => {
-    const[projectImg,setProjectImg]=useState([
-        {img:"/public/project1.svg"},{img:"/public/project2.svg"}, {img:"/public/project3.svg"},
-        {img:"/public/project4.svg"},{img:"/public/project5.svg"},{img:"/public/project6.svg"}
-    ]);
+    const[projectImg,setProjectImg]=useState([]);
+
+    useEffect(() => {
+        (async ()=>{
+            try {
+                let projectData = await ProjectDataRequest();
+                setProjectImg(projectData);
+            }catch (e) {
+                console.log(e.toString())
+            }
+        })()
+    }, []);
     const ProjectList = projectImg.map((project,index)=>{
-        return  <div key={index.toString()} className="col-md-6 shadow Projects_Card animate__animated animate__pulse">
+        return  <Col xs={12} sm={12} md={6} lg={6} key={index.toString()} className="shadow Projects_Card animate__animated animate__pulse">
                     <div className="projects_Card_Img">
                         <img src={project.img} alt="Project 1" />
                     </div>
                     <Card.Text className="Project_Card_Title">Lorem ipsum dolor sit consectutar</Card.Text>
-                </div>
+                </Col>
     })
     return (
         <div>

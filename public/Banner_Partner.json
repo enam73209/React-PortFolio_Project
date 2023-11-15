@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "banner": {
+        "title":"Increase Your Customers Loyalty and Satisfaction",
+        "Des":"We help businesses like yours earn more customers, stand out from competitors, make more money",
+        "Hero1":"/Rectangle1241.svg",
+        "Hero2":"/Rectangle1242.svg",
+        "Hero3":"/Rectangle1243.svg",
+        "Hero4":"/Rectangle1244.svg"
+      }
+
+    },
+    {
+    "partner":[
+      {
+        "img":"/logos_google.svg"
+      },
+      {
+        "img":"/Trello-logo-blue1.svg"
+      },
+      {
+        "img":"/Slack.svg"
+      },
+      {
+        "img":"/logos_monday.svg"
+      },
+      {
+        "img":"/Notion.svg"
+      }
+    ]
+    }
+ ]
+}

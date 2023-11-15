@@ -1,29 +1,29 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {NavLink} from "react-router-dom";
-import arrow from "../assets/img/service/arrow.svg";
+import arrow from "/arrow.svg";
 import {Col, Row} from "react-bootstrap";
-import facebook from '/public/team_facebook.svg'
-import insta from '/public/team_insta.svg'
-import twitter from '/public/team_Twitter.svg'
-import line1 from '/public/Line1.svg'
-import line2 from '/public/Line2.svg'
+import facebook from '/team_facebook.svg'
+import insta from '/team_insta.svg'
+import twitter from '/team_Twitter.svg'
+import line1 from '/Line1.svg'
+import line2 from '/Line2.svg'
+import {TeamDataRequest} from "../APIRequest/APIRequest.js";
 
 const TeamList = () => {
-    const[teamData,setTeamData]=useState([
-        {
-            name:"Alex Lov",
-            img:"/public/Rectangle.svg"
-        },
-        {
-            name:"Danny Bailey",
-            img:"/public/Danny.svg"
-        },
-        {
-            name:"Devon Lane",
-            img:"/public/Devon.svg"
-        }
+    const[teamData,setTeamData]=useState([])
+    useEffect(() => {
+        (async ()=>{
+            try{
+                let Data = await TeamDataRequest();
+                setTeamData(Data);
+            }catch (e){
+                console.log(e.toString())
+            }
 
-        ])
+        })()
+    }, []);
+
+
     return (
         <div>
             <div className="Page_Heading">
@@ -40,8 +40,8 @@ const TeamList = () => {
                 <Row>
                     {
                         teamData.map((team,index)=>(
-                            <Col md={4}  className="justify-content-center d-flex animate__animated animate__backInLeft" key={index.toString()}>
-                                <div className="Team_Card" >
+                            <Col xs={12} sm={12} md={4} lg={4} className="justify-content-center d-flex animate__animated animate__backInLeft" key={index.toString()}>
+                                <div className="Team_Card mb-sx-3 mb-sm-3  xs={12} sm={6} md={8} lg={10}" >
                                     <img className="card-img-top" src={team.img} alt="Card image cap"/>
                                     <div className="SocialLink d-flex">
                                         <img className="facebook" src={facebook}/>
