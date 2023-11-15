@@ -23,7 +23,7 @@ const HeroList = () => {
         return <div key={index.toString()} className="col-md-2"><img src={item.img} alt="Google" /></div>
     })
     return (
-        <div className="Hero mt-n5">
+        <div className="Hero mt-n5 flex">
             <div className="container pt-12">
                 <div className="row">
                     <div className="col-md-6">
