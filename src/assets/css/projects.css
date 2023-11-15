@@ -1,6 +1,6 @@
 .Projects_Card{
-    width: 604px;
-    height: 611px;
+    width: auto;
+    height: auto;
     top: 252px;
     left: 100px;
     padding: 40px 30px 30px 30px;
@@ -8,15 +8,16 @@
     margin-bottom: 20px;
     margin-left: 100px;
 }
-.projects_Card_Img{
+.projects_Card_Img img{
     width: 544px;
     height: 472px;
+    /*width: 100%;*/
+    /*height: 100%;*/
     top: 40px;
     left: 30px;
     border-radius: 20px;
 }
 .Project_Card_Title{
-
     width: 511px;
     height: 39px;
     top: 542px;
@@ -28,6 +29,30 @@
     letter-spacing: 0em;
     text-align: left;
     Color: rgba(0, 0, 0, 1);
+}
+
+/*@media (max-width: 576px) {*/
+/*    .projects_Card_Img{*/
+/*        width: 50%;*/
+/*        height: 50%;*/
+/*    }*/
+/*}*/
+@media (min-width: 769px) {
 
 
+}
+@media (max-width: 768px) {
+    .projects_Card_Img img{
+        width: 90%;
+        height: 90%;
+    }
+    .Projects_Card{
+       width: 70%;
+        height: 70%;
+    }
+    .Project_Card_Title{
+
+        font-size: 15px;
+
+    }
 }
