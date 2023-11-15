@@ -11,7 +11,6 @@ const HeroList = () => {
         (async ()=>{
             try {
                 let HeroData = await HeroDataRequest();
-                console.log(HeroData[1]);
                 SetBannerData(HeroData[0]['banner']);
                 setPartner(HeroData[1]['partner']);
             }catch (e) {

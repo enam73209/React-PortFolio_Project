@@ -30,13 +30,6 @@
     text-align: left;
     Color: rgba(0, 0, 0, 1);
 }
-
-/*@media (max-width: 576px) {*/
-/*    .projects_Card_Img{*/
-/*        width: 50%;*/
-/*        height: 50%;*/
-/*    }*/
-/*}*/
 @media (min-width: 769px) {
 
 
@@ -51,8 +44,6 @@
         height: 70%;
     }
     .Project_Card_Title{
-
         font-size: 15px;
-
     }
 }
