@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //TeamPage API Call
-const TeamURL ='/team.json'
+const TeamURL ='/database/team.json'
 export const TeamDataRequest=async ()=>{
     try{
         let res =await axios.get(TeamURL);
@@ -11,7 +11,7 @@ export const TeamDataRequest=async ()=>{
     }
 }
 //ServicePage API Call
-const ServiceURL = '/services.json';
+const ServiceURL = '/database/services.json';
 
 export const ServiceDataRequest = async()=>{
     try{
@@ -24,7 +24,7 @@ export const ServiceDataRequest = async()=>{
 
 
 //ProjectPage API Call
-const ProjectURL = '/projects.json';
+const ProjectURL = '/database/projects.json';
 export const ProjectDataRequest= async ()=>{
     try {
         let res =await axios.get(ProjectURL);
@@ -35,7 +35,7 @@ export const ProjectDataRequest= async ()=>{
 }
 
 //TestimonialPage API Call
-const TestimonialURL = '/testimonial.json';
+const TestimonialURL = '/database/testimonial.json';
 export const TestimonialDataRequest=async ()=>{
     try {
         let res = await axios.get(TestimonialURL);
@@ -47,7 +47,7 @@ export const TestimonialDataRequest=async ()=>{
 
 /*-----------------HomePage API Call*--------------------*/
 //WorkList API Call
-const WorkURL = '/works.json';
+const WorkURL = '/database/works.json';
 export const WorksDataRequest = async ()=>{
     try {
         let res = await axios.get(WorkURL);
@@ -58,7 +58,7 @@ export const WorksDataRequest = async ()=>{
 }
 
 //StatList API Call
-const StatURL = '/stat.json'
+const StatURL = '/database/stat.json'
 export const StatDataRequest = async ()=>{
     try {
         let res = await axios.get(StatURL);
@@ -69,7 +69,7 @@ export const StatDataRequest = async ()=>{
 }
 
 //HeroList API Call
-const HeroURL='/Banner_Partner.json';
+const HeroURL='/database/Banner_Partner.json';
 export const HeroDataRequest = async ()=>{
     try{
         let res = await axios.get(HeroURL);
