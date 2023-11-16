@@ -4,6 +4,7 @@
     background: linear-gradient(180deg, #D7F5DC 0%, #D7F5DC 100%);
 }
 
+
 .my-navbar-toggle {
     /* Add styles to modify the appearance of the Navbar.Toggle button */
     background-color: rgba(32, 177, 90, 1); /* Change this color to your desired color */
@@ -36,10 +37,16 @@
     padding-left: 2em;
     color: rgba(0, 0, 0, 1);
     margin-left: 0;
+}
 
-
+.activeLink {
+    font-weight: 3000;
+    font-size: 24px;
+    color: rgb(36, 164, 83);/* Change the color to your preference */
 
 }
+
+
 
 .footer{
     width: Auto;
@@ -387,6 +394,7 @@
     cursor: pointer;
     padding: 8px 24px;
 }
+
 
 
 
