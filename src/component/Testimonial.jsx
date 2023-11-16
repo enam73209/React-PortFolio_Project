@@ -36,7 +36,7 @@ const Testimonial = () => {
                 </div>
             </div>
             <div className="container-fluid">
-                <p className="All_Service_Title mb-4">Our All Projects</p>
+                <p className="All_Service_Title mb-4">Testimonial List</p>
                 <p className="All_Service_Des mb-4">Better Agency/SEO Solution At Your Fingertips</p>
                 <div className="row d-flex  justify-content-center">
                     {TestimonialList}
