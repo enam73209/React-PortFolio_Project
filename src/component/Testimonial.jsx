@@ -10,7 +10,6 @@ const Testimonial = () => {
     useEffect(() => {
         (async ()=>{
             let TestimonialData = await TestimonialDataRequest();
-            console.log(TestimonialData);
             setTestimonial(TestimonialData);
         })()
     }, []);

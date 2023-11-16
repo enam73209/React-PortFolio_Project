@@ -33,10 +33,10 @@ const Header = () => {
                         <NavLink className="NavItems" to="/testimonial">Testimonial</NavLink>
                         <NavLink className="NavItems" to="/service">Service</NavLink>
 
-                        <NavLink className="NavItems" to="#">
+                        <NavLink className="NavItems" to="/login">
                             <button className="me-3 btn btn-outline-success">Login</button>
                         </NavLink>
-                        <NavLink to=""><button className="me-3 btn btn-success">Registration</button></NavLink>
+                        <NavLink to="/registration"><button className="me-3 btn btn-success">Registration</button></NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
